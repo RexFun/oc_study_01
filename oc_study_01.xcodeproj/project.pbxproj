@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71932F7C1C4E069500D31540 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71932F7B1C4E069500D31540 /* SecondViewController.m */; settings = {ASSET_TAGS = (); }; };
 		71D629A31B8EF68000184F3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D629A21B8EF68000184F3D /* main.m */; };
 		71D629A61B8EF68000184F3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D629A51B8EF68000184F3D /* AppDelegate.m */; };
 		71D629A91B8EF68000184F3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D629A81B8EF68000184F3D /* ViewController.m */; };
-		71D629AC1B8EF68000184F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D629AA1B8EF68000184F3D /* Main.storyboard */; };
 		71D629AE1B8EF68000184F3D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D629AD1B8EF68000184F3D /* Images.xcassets */; };
-		71D629B11B8EF68000184F3D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71D629AF1B8EF68000184F3D /* LaunchScreen.xib */; };
 		71D629BD1B8EF68000184F3D /* oc_study_01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D629BC1B8EF68000184F3D /* oc_study_01Tests.m */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +26,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		71932F7A1C4E069500D31540 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		71932F7B1C4E069500D31540 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		71D6299D1B8EF68000184F3D /* oc_study_01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oc_study_01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D629A11B8EF68000184F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71D629A21B8EF68000184F3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,9 +35,7 @@
 		71D629A51B8EF68000184F3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		71D629A71B8EF68000184F3D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		71D629A81B8EF68000184F3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		71D629AB1B8EF68000184F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71D629AD1B8EF68000184F3D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		71D629B01B8EF68000184F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		71D629B61B8EF68000184F3D /* oc_study_01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oc_study_01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D629BB1B8EF68000184F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71D629BC1B8EF68000184F3D /* oc_study_01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oc_study_01Tests.m; sourceTree = "<group>"; };
@@ -85,9 +84,9 @@
 				71D629A51B8EF68000184F3D /* AppDelegate.m */,
 				71D629A71B8EF68000184F3D /* ViewController.h */,
 				71D629A81B8EF68000184F3D /* ViewController.m */,
-				71D629AA1B8EF68000184F3D /* Main.storyboard */,
+				71932F7A1C4E069500D31540 /* SecondViewController.h */,
+				71932F7B1C4E069500D31540 /* SecondViewController.m */,
 				71D629AD1B8EF68000184F3D /* Images.xcassets */,
-				71D629AF1B8EF68000184F3D /* LaunchScreen.xib */,
 				71D629A01B8EF68000184F3D /* Supporting Files */,
 			);
 			path = oc_study_01;
@@ -199,8 +198,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71D629AC1B8EF68000184F3D /* Main.storyboard in Resources */,
-				71D629B11B8EF68000184F3D /* LaunchScreen.xib in Resources */,
 				71D629AE1B8EF68000184F3D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71D629A91B8EF68000184F3D /* ViewController.m in Sources */,
+				71932F7C1C4E069500D31540 /* SecondViewController.m in Sources */,
 				71D629A61B8EF68000184F3D /* AppDelegate.m in Sources */,
 				71D629A31B8EF68000184F3D /* main.m in Sources */,
 			);
@@ -242,25 +240,6 @@
 			targetProxy = 71D629B71B8EF68000184F3D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		71D629AA1B8EF68000184F3D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71D629AB1B8EF68000184F3D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		71D629AF1B8EF68000184F3D /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71D629B01B8EF68000184F3D /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		71D629BE1B8EF68000184F3D /* Debug */ = {
@@ -416,6 +395,7 @@
 				71D629C21B8EF68000184F3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71D629C31B8EF68000184F3D /* Build configuration list for PBXNativeTarget "oc_study_01Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +404,7 @@
 				71D629C51B8EF68000184F3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
