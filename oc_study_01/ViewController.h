@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
-
+@property UIView* mUIView;
+@property UIButton* mUIButton;
+@property UIButton* mUIButtonSegue;
 @end
 
