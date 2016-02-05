@@ -10,6 +10,10 @@
 
 @implementation SecondViewController
 
+//可自定义属性实例名，（系统默认为:‘_属性实例名’）
+//@synthesize UILabel = _mUILabel;
+//@synthesize UIButton = _mUIButton;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     

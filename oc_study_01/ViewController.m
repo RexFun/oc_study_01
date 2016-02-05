@@ -11,6 +11,11 @@
 
 @implementation ViewController
 
+//可自定义属性实例名，（系统默认为:‘_属性实例名’）
+//@synthesize mUIView = _mUIView;
+//@synthesize mUIButton = _mUIButton;
+//@synthesize mUIButtonSegue = _mUIButtonSegue;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
